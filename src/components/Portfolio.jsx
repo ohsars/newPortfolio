@@ -14,7 +14,7 @@ export const Portfolio = () => {
   ]
 
   return (
-    <section className='my-32'>
+    <section id='Projects' className='my-32 h-full'>
       <div className='w-[70vw] mx-auto p-5 md:p-0 h-full'>
         <div className='mx-auto mb-6 leading-loose'>
           <h6 className='text-sm mb-2 text-red-500'>Portfolio</h6>

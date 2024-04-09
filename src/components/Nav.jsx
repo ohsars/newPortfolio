@@ -11,9 +11,9 @@ export const Nav = ({ theme }) => {
   const navLinks = ["Home", "About", "Projects", "Contact"]
 
   return (
-    <nav className="sticky top-2 z-50">
+    <nav className="sticky top-0 z-50">
       <div className="max-w-[90vw] flex justify-center mx-auto px-2 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-center h-16 mt-3 p-2">
+        <div className="flex items-center justify-center h-16 mt-2 p-2">
           <div className="static flex items-center justify-between p-2 w-[80vw]  dark:bg-gray-900 bg-black rounded-3xl dark:text-white text-gray-300 px-4">
             <div className="flex-shrink-0">
               <a href="/" className="font-bold text-sm">marvelUs 👨🏾‍💻</a>
@@ -23,7 +23,7 @@ export const Nav = ({ theme }) => {
               <div className="ml-10 flex items-baseline space-x-4">
 
               {navLinks.map((link, index) => (
-                <a key={index} href="#"  className="hover:text-white px-3 py-2 rounded-md text-sm font-medium">{link}</a>
+                <a key={index} href={`#${link}`}  className="hover:text-white px-3 py-2 rounded-md text-sm font-medium">{link}</a>
               ))}
                 
               </div>

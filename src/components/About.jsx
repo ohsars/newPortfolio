@@ -3,9 +3,9 @@ import aboutImg from '../assets/about.jpg'
 
 export const About = () => {
   return (
-    <div className='h-screen bg-gray-300 dark:bg-white py-8'>
-      <div className='md:mt-[12rem] mt-[2rem]'>
-        <section className='max-w-[70vw] h-full mx-auto md:flex justify-center items-start gap-12 grid grid-cols-1 '>
+    <div id='About' className='bg-gray-300 dark:bg-white py-8'>
+      <div className=' mt-[2rem] '>
+        <section className='max-w-[70vw] md:h-[80vh] mx-auto md:flex justify-center items-center gap-12 grid grid-cols-1'>
           <div className='rounded-xl bg-gray-900 relative'>
             <img src={aboutImg} alt='digital_system' className='opacity-30 rounded-xl object-contain' />
             <div className='absolute -bottom-10 -left-5 mx-auto'><p className=' border border-white py-5 m-2 bg-gray-900 dark:bg-white md:w-[7vw] w-[17vw] h-[13vh]  text-center text-4xl mx-auto rounded-full shadow-md duration-700 transition-transform animate-bounce '>🧑🏾‍💻</p></div>
