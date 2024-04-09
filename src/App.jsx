@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import { Nav } from './components/Nav'
 import { Hero } from './components/Hero';
 import { About } from './components/About';
+import { Portfolio } from './components/Portfolio';
 
 function App() {
   const [theme, setTheme] = useState(null);
@@ -34,6 +35,7 @@ function App() {
       <Nav theme={handleThemeSwitch}/>
       <Hero />
       <About />
+      <Portfolio />
     </>
   )
 }
