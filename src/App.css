@@ -1,0 +1,13 @@
+* {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.dark {
+  background-color: rgb(17 24 39);
+  color: rgb(156 163 175);
+}
+
+.light {
+  background-color: white;
+  color: rgb(209 213 219);;
+}
