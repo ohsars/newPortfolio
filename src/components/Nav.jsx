@@ -54,7 +54,7 @@ export const Nav = ({ theme }) => {
         <div className="md:hidden" id="mobile-menu">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
           {navLinks.map((link, index) => (
-                <a key={index} href="#"  className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">{link}</a>
+                <a key={index} href={`#${link}`} className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">{link}</a>
       ))}
           </div>
         </div>
