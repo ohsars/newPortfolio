@@ -2,6 +2,7 @@ import './App.css'
 import { useEffect, useState } from 'react';
 import { Nav } from './components/Nav'
 import { Hero } from './components/Hero';
+import { About } from './components/About';
 
 function App() {
   const [theme, setTheme] = useState(null);
@@ -29,10 +30,11 @@ function App() {
   }
 
   return (
-    <div className=''>
+    <>
       <Nav theme={handleThemeSwitch}/>
       <Hero />
-    </div>
+      <About />
+    </>
   )
 }
 
