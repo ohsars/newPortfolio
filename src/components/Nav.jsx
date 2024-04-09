@@ -11,7 +11,7 @@ export const Nav = ({ theme }) => {
   const navLinks = ["Home", "About", "Projects", "Contact"]
 
   return (
-    <nav className="sticky top-4 z-50">
+    <nav className="sticky top-2 z-50">
       <div className="max-w-[90vw] flex justify-center mx-auto px-2 sm:px-6 lg:px-8">
         <div className="flex items-center justify-center h-16 mt-3 p-2">
           <div className="static flex items-center justify-between p-2 w-[80vw]  dark:bg-gray-900 bg-black rounded-3xl dark:text-white text-gray-300 px-4">
