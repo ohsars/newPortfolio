@@ -15,20 +15,20 @@ export const Portfolio = () => {
 
   return (
     <section id='Projects' className='my-32 h-full'>
-      <div className='w-[70vw] mx-auto p-5 md:p-0 h-full'>
+      <div className='md:w-[70vw] w-[80vw] mx-auto p-2 md:p-0 h-full'>
         <div className='mx-auto mb-6 leading-loose'>
           <h6 className='text-sm mb-2 text-red-500'>Portfolio</h6>
-          <h3 className='font-bold'>Each is a unique piece of development </h3>
+          <h3 className='font-bold text-xl pb-4'>Each is a unique piece of development </h3>
         </div>
 
 
           {works.map((index) => (
-            <div className='leading-loose w-[60vw] md:h-[40vh] flex flex-wrap  md:flex-nowrap justify-center mx-auto gap-12 mb-16 odd:flex-row-reverse'>
-              <div className='md:w-[90%]'>
-                <img src={index.img} className='w-full md:w-[70vw] h-[25vh] md:h-[30vh] border p-1 rounded-xl shadow-sm dark:shadow-white shadow-black object-cover hover:transform ring-offset-4'/>
+            <div className='leading-loose  md:w-[70vw] md:h-[40vh] flex flex-wrap  md:flex-nowrap justify-center mx-auto gap-12 mb-16 odd:flex-row-reverse'>
+              <div className='md:w-[90%] w-full'>
+                <img src={index.img} className='w-full md:w-[70vw] md:h-[30vh] border p-1 rounded-xl shadow-sm dark:shadow-white shadow-black object-cover hover:transform ring-offset-4'/>
               </div>
 
-              <div className='md:w-full'>
+              <div className='md:w-full text-justify'>
                 <h4 className='uppercase font-bold text-sm md:text-md'>{index.header}</h4>
                 <p className='text-sm leading-loose my-2'>{index.description}</p>
 
