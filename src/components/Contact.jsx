@@ -13,16 +13,16 @@ export const Contact = () => {
           <div className='flex justify-center gap-5 items-center leading-loose'>
             <i className='fa fa-location text-2xl'/>
             <div>
-              <h2>Location</h2>
-              <p className='text-sm leading-normal'>Redemption City, Ogun, Nigeria</p>
+              <h2 className='text-sm font-medium'>Location</h2>
+              <p className='text-xs leading-normal'>Redemption City, Ogun, Nigeria</p>
             </div>
           </div>
 
           <div className='flex justify-center gap-5 items-center leading-loose'>
             <i className='fa fa-message text-2xl'/>
-            <div className=''>
-              <h2>Mail</h2>
-              <p className='text-sm leading-normal'><a href='mailto:marvelous@britanniaeuropegroup.com'>marvelous@britanniaeuropegroup</a></p>
+            <div>
+              <h2 className='text-sm font-medium'>Mail</h2>
+              <p className='text-xs leading-normal'><a href='mailto:marvelous@britanniaeuropegroup.com'>marvelous@britanniaeuropegroup</a></p>
             </div>
           </div>
         </div>
