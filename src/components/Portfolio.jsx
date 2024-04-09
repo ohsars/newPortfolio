@@ -23,7 +23,7 @@ export const Portfolio = () => {
 
 
           {works.map((index) => (
-            <div className='leading-loose w-[60vw] h-[40vh] flex flex-wrap  md:flex-nowrap justify-center mx-auto gap-12 mb-16 odd:flex-row-reverse'>
+            <div className='leading-loose w-[60vw] md:h-[40vh] flex flex-wrap  md:flex-nowrap justify-center mx-auto gap-12 mb-16 odd:flex-row-reverse'>
               <div className='md:w-[90%]'>
                 <img src={index.img} className='w-full md:w-[70vw] h-[25vh] md:h-[30vh] border p-1 rounded-xl shadow-sm dark:shadow-white shadow-black object-cover hover:transform ring-offset-4'/>
               </div>

@@ -12,9 +12,12 @@ export const Hero = () => {
             <h2 className='text-4xl md:max-w-[25vw] font-extrabold leading-normal '>Front-End React Developer 👋🏾</h2>
             <p className='text-gray-500 text-s leading-[1.8] my-4 md:max-w-[35vw]'>Hi, I'm Osakpolor M, EFEBE. A passionate Front-end React Developer based in Ogun, Nigeria. 📍</p>
             <div className='flex gap-2 my-3 text-2xl '>
-              <i className='fa fa-linkedin bg-gray-500 p-2 rounded hover:text-gray-900 '/>
-              <i className='fa fa-github bg-gray-500  p-2 rounded hover:text-gray-900 '/>
-              <p className='bg-gray-500  p-2 rounded hover:text-gray-900 text-sm'><i className='fa fa-download  '/> Download CV</p>
+
+              <a href='https://www.linkedin.com/in/horsars/' target='_blank'><i className='fa fa-linkedin bg-gray-500 p-2 rounded hover:text-gray-900 '/></a>
+
+              <a href='https://github.com/ohsars' target='_blank'><i className='fa fa-github bg-gray-500  p-2 rounded hover:text-gray-900 '/></a>
+
+              <p className='bg-gray-500  p-2 rounded hover:text-gray-900 text-sm'><a href='https://drive.google.com/file/d/1jyVQFfDyAWDZuc9NsY7oeFR7poNw-WXu/view' target='_blank'><i className='fa fa-download'/> Download CV</a></p>
             </div>
           </div>
 
