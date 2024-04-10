@@ -7,8 +7,8 @@ export const Hero = () => {
 
   return (
     <div id='Home'>
-      <div>
-        <section className='flex justify-between flex-wrap items-center mx-auto w-[80vw] md:w-[70vw] h-full md:h-screen '>
+      <div className='h-full md:my-32 my-8'>
+        <section className='flex justify-between flex-wrap items-center mx-auto w-[80vw] md:w-[70vw]'>
           <div className='sm:text-center md:text-left'>
             <h2 className='text-4xl md:max-w-[25vw] font-extrabold leading-normal '>Front-End React Developer 👋🏾</h2>
             <p className='text-gray-500 text-s leading-[1.8] my-4 md:max-w-[35vw]'>Hi, I'm Osakpolor M, EFEBE. A passionate Front-end React Developer based in Ogun, Nigeria. 📍</p>
@@ -22,8 +22,8 @@ export const Hero = () => {
 
         </section>
 
-        <section className='flex md:gap-4 justify-around md:justify-start items-center flex-wrap mx-auto md:-mt-32 mb-16 md:w-[70vw]'>
-          <h2 className='p-1 font-semibold  bg-black dark:bg-gray-500 rounded text-white'>Tech Stack</h2>
+        <section className='flex md:gap-4 justify-around md:justify-start items-center flex-wrap mx-auto  md:w-[70vw]'>
+          <h2 className='font-semibold uppercase '>Tech Stack</h2>
           <span className='hidden md:block text-red-500 dark:text-white'>-</span>
           <div className='gap-8 p-3 text-xl font-xl flex items-center text-center'>
             <i className='fa fa-html5 text-2xl'/>
