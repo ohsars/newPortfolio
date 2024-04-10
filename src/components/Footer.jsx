@@ -1,5 +1,4 @@
 import React from 'react'
-import { ConnectIcons } from './ConnectIcons';
 import { GitAndLinkedin } from './GitAndLinkedin';
 
 export const Footer = () => {

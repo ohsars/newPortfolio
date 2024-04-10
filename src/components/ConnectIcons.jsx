@@ -5,8 +5,7 @@ import { GitAndLinkedin } from './GitAndLinkedin'
 export const ConnectIcons = () => {
   return (
     <div className='flex gap-2 my-3 text-2xl '>
-    <GitAndLinkedin />
-
+      <GitAndLinkedin />
       <CVButton />
     </div>
   )
