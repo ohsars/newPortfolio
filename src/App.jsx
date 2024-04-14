@@ -33,7 +33,7 @@ function App() {
 
   return (
     <>
-      <Nav theme={handleThemeSwitch}/>
+      <Nav theme={handleThemeSwitch} normal={theme}/>
       <Hero />
       <About />
       <Portfolio />
