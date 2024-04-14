@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-export const Nav = ({ theme }) => {
+export const Nav = ({ theme, normal }) => {
 
   const [isOpen, setIsOpen] = useState(false);
 
@@ -29,8 +29,8 @@ export const Nav = ({ theme }) => {
               </div>
             </div>
 
-            <div className='text-xl hover:cursor-pointer'>
-              {theme === "light" ? <i className='fa fa-toggle-on ease-in duration-200 text-white' onClick={theme}/> : <i className='fa fa-toggle-on rotate-180 ease-in duration-200 text-white' onClick={theme}/>}
+            <div className='text-3xl hover:cursor-pointer'>
+              {normal === "dark" ? <i className='fa fa-toggle-on ease-in duration-200 text-white' onClick={theme}/> : <i className='fa fa-toggle-off transition-transform transform-gpu  ease-in duration-200' onClick={theme}/>}
             </div>
 
           </div>
