@@ -1,4 +1,3 @@
-import React from 'react'
 import { GitAndLinkedin } from './GitAndLinkedin';
 
 export const Footer = () => {
