@@ -8,7 +8,7 @@ export const About = () => {
         <section className='max-w-[80vw] md:h-screen h-full mx-auto md:flex justify-center items-center gap-12 grid grid-cols-1'>
           <div className='rounded-xl bg-gray-900 relative'>
             <img src={aboutImg} alt='digital_system' className='opacity-30 rounded-xl object-contain md:w-[30vw] w-screen' />
-            <div className='absolute -bottom-12 -left-5 mx-auto'><p className=' border border-white md:py-8 m-2 bg-gray-900 dark:bg-white md:w-32 md:h-32 w-16 h-16 py-2  text-center md:text-4xl text-xl mx-auto rounded-full shadow-md duration-700 transition-transform animate-spin'>🧑🏾‍💻</p></div>
+            <div className='absolute -bottom-12 -left-5 mx-auto'><p className=' border border-white md:py-8 m-2 bg-gray-900 dark:bg-white md:w-32 md:h-32 w-16 h-16 py-2  text-center md:text-4xl text-xl mx-auto rounded-full shadow-md duration-1000 transition-transform animate-spin'>🧑🏾‍💻</p></div>
           </div>
           
           <div className='md:max-w-[33vw] leading-loose'>

@@ -22,7 +22,7 @@ export const Contact = () => {
             <i className='fa fa-message md:text-2xl'/>
             <div>
               <h2 className='text-sm font-medium'>Mail</h2>
-              <p className='text-xs leading-normal'><a href='mailto:marvelous@britanniaeuropegroup.com'>marvelous@britanniaeuropegroup.com</a></p>
+              <p className='text-xs leading-normal'><a href='mailto:marvelous@britanniaeuropegroup.com'>efebeosas@gmail.com</a></p>
             </div>
           </div>
 
