@@ -7,9 +7,9 @@ import food from "../assets/food.png"
 export const Portfolio = () => {
 
   const works = [
-    {img: brit,  header : "Britannia Europe Group ⚖️", description: "Britannia Europe Education Group, a distinguished subsidiary of Britannia Europe Consulting UK Ltd, in partnership with Christ College, London.We are your path to a world of knowledge, practical experience, and boundless career possibilities.", stacks: ["ReactJs ", "|| Tailwind"], link: "https://www.britanniaeuropegroup.com", github: ""} , 
-
     { img: food, header : "Online Foodstore (Still Developing..⚒️)", description: "An online web platform for users to make food orders", stacks: ["ReactJS", " || TailwindCSS", ],link: "https://github.com/ohsars/foodsstore", github: "https://github.com/ohsars/foodsstore" } ,
+    
+    {img: brit,  header : "Britannia Europe Group ⚖️", description: "Britannia Europe Education Group, a distinguished subsidiary of Britannia Europe Consulting UK Ltd, in partnership with Christ College, London.We are your path to a world of knowledge, practical experience, and boundless career possibilities.", stacks: ["ReactJs ", "|| Tailwind"], link: "https://www.britanniaeuropegroup.com", github: ""} , 
 
     { img: chat, header : "ai in nlp", description: "A 500lvl group class project: An interactive chatbot application for a coffee business. It responds to users requests and give the required response", stacks: ["Anaconda ", " || Python ",  "|| HTML ", "|| CSS ", " || JavaScript"],link: "", github: "" } ,
 
