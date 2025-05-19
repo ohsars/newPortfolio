@@ -13,8 +13,8 @@ export const About = () => {
           
           <div className='md:max-w-[33vw] leading-loose'>
             <h4 className='text-sm mb-2 text-red-500'>About marvelUs </h4>
-            <h6 className='font-bold '>Frontend Developer </h6>
-            <p className='text-black text-justify text-l '>Marvelous is a budding front-end developer with 3 years of experience transforming static designs to interactive and responsive websites. He possess impressive skills in HTML, CSS, JavaScript, React, Tailwind CSS. He is a Graduate Member, Nigeria Society of Engineers (GMNSE) and is a problem solver and pursues user satisfaction from creating webpages and products that provide solutions to the world at large.</p>
+            <h6 className='font-bold '>Web Developer </h6>
+            <p className='text-black text-justify text-l '>Marvelous is a web developer with over 4 years of experience transforming static designs to interactive and responsive websites. He possess impressive skills in HTML, CSS, JavaScript, React, Tailwind CSS, PHP. He is a Graduate Member, Nigeria Society of Engineers (GMNSE) and is a problem solver and pursues user satisfaction from creating webpages and products that provide solutions to the world at large.</p>
           </div>
         </section>
 
